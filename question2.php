@@ -5,12 +5,7 @@ $a = array(
 );
 
 function solution(array $a = array()){
-    /**
-     * Assumes that the first positive integer
-     * in an empty array will be 1 - also stops
-     * potential for infinite loop in while()
-     * below
-     */
+    
     if(!count($a)){
         return 1;
     }
